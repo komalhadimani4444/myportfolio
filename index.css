@@ -75,9 +75,36 @@ button {
 
 /* home section styling*/
 
+.intro-section {
+    margin-top: 9rem;
+    background-image: url("./images/Komal.png");
+    height: 70rem;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: rgb(48, 59, 46);
+    padding-top: 200px;
+
+}
+.into-div{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+}
+.into-div .img img{
+    justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 100px;
+        margin-bottom: 40px;
+}
+
 
 .intro-section .row {
-    
     padding: 12px 36px;
     margin-top: 10px;
     margin-right: 0;
@@ -104,19 +131,7 @@ p {
     font-size: 30px;
 }
 
-.intro-section {
-    margin-top: 9rem;
-    background-image: url("/Komal.png");
-    height: 70rem;
-    display: flex;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    text-align: left;
-    color: rgb(48, 59, 46);
-    padding-top: 200px;
-   
-}
+
 
 .intro-section button {
     display: inline-block;
