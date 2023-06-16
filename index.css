@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear {
+    clear: both;
+
+}
+
+
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+button {
+    font-size: 1.8rem;
+}
+
+.topnav {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 3rem;
+    background-color: rgb(48, 59, 46);
+    color: white;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.left {
+    /* display: flex; */
+    float: left;
+    /* background-color: yellow; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.right ul {
+    
+    float: right;
+    list-style: none;
+    /* background-color: yellow; */
+
+    /* justify-content: space-around; */
+}
+
+.right li {
+    float: left;
+    margin: 0rem 4rem;
+}
+
+/* home section styling*/
+
+
+.intro-section .row {
+    
+    padding: 12px 36px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.intro-section,
+.row,
+.text-1 {
+    
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+.intro-section .row .text-1 span {
+    color:rgb(150, 5, 5);
+
+}
+
+.intro-section,
+.row,
+p {
+    color: #555;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.intro-section {
+    margin-top: 9rem;
+    background-image: url("/Komal.png");
+    height: 70rem;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: rgb(48, 59, 46);
+    padding-top: 200px;
+   
+}
+
+.intro-section button {
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: rgb(48, 59, 46);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold; 
+    border-radius: 5px;        
+}
+
+/* ABOUT ME SECTION */
+
+
+.about-me-container {
+    display: flex;
+    flex-direction:row;
+}
+
+.about-me-image {
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.about-me-content {
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    font-size: 2rem;
+    
+}
+
+.about-me-section button {
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: rgb(48, 59, 46);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* ED-EXP SECTION */
+
+.all-section{
+    background-color: #EFEBE0;
+    
+}
+
+.education-exp{
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 130px;
+    padding-right: 130px;
+    gap: 60px;
+    margin-bottom: 100px;
+    
+}
+.ed{
+    flex:1;
+}
+.education-exp .ed .head1{
+    margin-bottom: 20px;
+}
+
+
+.exp{
+    flex:1;
+}
+.exp .head2{
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 22px;
+    margin-bottom: 30px;
+
+}
+.text .list{
+    margin-bottom: 10px;
+}
+.text .inside{
+    font-size: 17px;
+
+}
+.text .inner{
+    font-size: 14px;
+}
+
+
+
+/* SKILLS SECTION STYLING */
+.skills-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    gap:60px;
+    margin-bottom: 40px;
+}
+
+.content{
+    flex:1;
+
+
+}
+.title{
+    margin-bottom: 30px;
+}
+.text p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.content button{
+    display: inline-block;
+    margin-bottom: 4rem;
+    padding: 1rem 4rem;
+    background: rgb(48, 59, 46);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.skills{
+    flex:1;
+    width: 80%;
+    margin-top: 0;
+}
+.skills .bars{
+    margin-bottom: 20px;
+}
+.skills .bars .info{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills .bars .info span{
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.skills .bars .line{
+    height:5px;
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+}
+
+.skills .bars .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: crimson;
+}
+.skills .bars .html::before{
+    width:59%;
+}
+.skills .bars .js::before {
+    width: 20%;
+}
+.skills .bars .java::before {
+    width: 40%;
+}
+.skills .bars .bt::before {
+    width: 50%;
+}
+.skills .bars .python::before {
+    width: 30%;
+}
+.skills .bars .git::before {
+    width: 50%;
+}
+
+
+
+
+/* Contact Us Section */
+
+.contact-us-section {
+    text-align: center;
+    font-size: 2.4rem;
+    background-color: #EFEBE0;
+
+
+}
+
+.contact .content-left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.content-left p {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.contact .content-left .icons{
+    margin:10px 0;
+    margin-bottom: 40px;
+}
+
+.contact .content-left .row{
+    display: flex;
+    height: 30px;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+
+.contact .content-left .row .info {
+    margin-left: 30px;
+}
+
+.contact .content-left .row i {
+    font-size: 25px;
+    color: crimson;
+}
+.contact .content-left .info .head{
+    font-size: 16px;
+    font-weight: 100;
+}
+.contact .content-left .info .sub-title {
+    color: #333;
+    font-weight: normal;
+    font-size:19px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    float: left;
+    width: 50%;
+    margin-left: 200px;
+}
+
+.content-right {
+    float: right;
+    width: 60%;
+}
+
+
+.fas {
+    color: blue;
+}
+
+
+/* FORM SECTION */
+
+
+form input,
+form label,
+form textarea {
+    display: block;
+
+}
+
+form input,
+form textarea {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+input,
+textarea {
+    /* border: none; */
+    border-radius: 5px;
+    padding: 9px;
+    /* border-bottom: 2px solid purple; */
+    outline: none;
+}
+
+
+form button {
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    background: rgb(61, 81, 102);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+/* FOOTER SECTION  */
+.created-by-section {
+    background-color: rgb(48, 59, 46);
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 15px 23px;
+}
+footer span {
+    
+    text-decoration: none;
+}
+
+
+
+
+
